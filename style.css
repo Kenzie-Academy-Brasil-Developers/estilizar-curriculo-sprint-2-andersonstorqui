@@ -2,6 +2,12 @@
 	clear: both;
 }
 
+body{
+	background-color: #f3f3f3;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+
 #headshot {
 	width: 12.5%;
 	float: left;
@@ -14,6 +20,8 @@
 
 #contactDetails {
 	float: right;
+	margin-top: -4px;
+
 }
 
 .sectionTitle {
@@ -25,3 +33,90 @@
 	float: right;
 	width: 72.5%;
 }
+
+/* NOME E CONTATO */
+.mainDetails{
+    margin: 0px 70px;
+    padding-right: 60px;
+    padding-top: 70px;
+    padding-left: 60px;
+    border-bottom: 2px solid #cf8a05;
+	padding-bottom: 18px;
+
+}
+
+#headshot{}
+#headshot img{
+	border-radius: 62px;
+	width: 106px;
+
+}
+
+#name{
+    margin-left: 0px;
+    margin-top: -8px;
+	color: #444444;
+}
+#name h1{}
+#name h2{
+	font-size: 22px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+#contactDetails{
+	margin-top: 8px;
+
+}
+#contactDetails ul{
+	list-style: none;
+	color: #181818;
+}
+#contactDetails ul li{}
+#contactDetails ul li a{
+	text-transform:none;
+	color: #181818;
+
+}
+
+#cv{
+	margin: 25px 114px 25px 114px;
+}
+
+
+
+/* PERFIL PESSOAL */
+#mainArea{
+	margin: 15px 120px 30px 120px;
+
+}
+
+.sectionTitle{}
+.sectionTitle h1{
+	color: #cf8a05;
+	font-family: Rokkit, Arial, Helvetica, sans-serif;
+}
+.sectionContent p{}
+
+/* EXPERIENCIA DE TRABALHO */
+
+section{
+	border-bottom: 1px solid #dedede;
+
+}
+.sectionContent{}
+.sectionContent h2{
+	color: #444444;
+}
+.sectionContent p{}
+.subDetails{}
+
+/* CHAVE SKILLS */
+
+.keySkills{}
+.keySkills li{}
+
+.sectionTitle, .sectionContent{}
+
+
+

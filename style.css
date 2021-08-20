@@ -36,12 +36,12 @@ body{
 
 /* NOME E CONTATO */
 .mainDetails{
-    margin: 0px 70px;
-    padding-right: 60px;
-    padding-top: 70px;
-    padding-left: 60px;
+    margin: 0px 60px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
     border-bottom: 2px solid #cf8a05;
-	padding-bottom: 18px;
+    padding-bottom: 18px;
 
 }
 
@@ -76,6 +76,7 @@ body{
 #contactDetails ul li a{
 	text-transform:none;
 	color: #181818;
+	text-decoration: none;
 
 }
 
@@ -108,12 +109,19 @@ section{
 .sectionContent h2{
 	color: #444444;
 }
-.sectionContent p{}
-.subDetails{}
+.sectionContent p{
+	color: #181818;
+}
+.subDetails{
+	color: #181818;
+
+}
 
 /* CHAVE SKILLS */
 
-.keySkills{}
+.keySkills{
+	column-count: 3;
+}
 .keySkills li{}
 
 .sectionTitle, .sectionContent{}

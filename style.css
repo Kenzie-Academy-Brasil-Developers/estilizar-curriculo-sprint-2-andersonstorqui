@@ -95,7 +95,10 @@ body{
 .sectionTitle{}
 .sectionTitle h1{
 	color: #cf8a05;
-	font-family: Rokkit, Arial, Helvetica, sans-serif;
+	font-family: Rokkit, Arial, Helvetica, serif;
+	font-size: 20px;
+	font-weight: 500;
+	font-style: italic;
 }
 .sectionContent p{}
 
@@ -108,21 +111,35 @@ section{
 .sectionContent{}
 .sectionContent h2{
 	color: #444444;
+	font-weight: 500;
+	font-family: Arial, Helvetica, serif;
 }
 .sectionContent p{
 	color: #181818;
 }
 .subDetails{
 	color: #181818;
-
+	font-style: italic;
+	font-weight: 100;
+	margin-top: -16px;
+	margin-bottom: -7px;
 }
 
+p{
+	font-family: Arial, Helvetica, serif;
+	font-weight: 100;
+	line-height: 1.5em;
+}
 /* CHAVE SKILLS */
 
 .keySkills{
 	column-count: 3;
+	font-weight: 300;
+	margin-left: -37px;
 }
-.keySkills li{}
+.keySkills li{
+	list-style: none;
+}
 
 .sectionTitle, .sectionContent{}
 
